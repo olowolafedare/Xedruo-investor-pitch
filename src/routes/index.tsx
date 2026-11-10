@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const MAIL = "mailto:info@xedruo.com?subject=Xedruo%20investment%20discussion";
+const MAIL = "mailto:ceodare@xedruo.com?subject=Xedruo%20investment%20discussion";
 
 const nav = [
   ["Approach", "#approach"],
@@ -356,7 +356,7 @@ function Index() {
 
         <Section id="contact" eyebrow="11 · Contact" title="Start the conversation.">
           <div className="flex flex-wrap gap-3">
-            <a href={MAIL} className={btnPrimary}>info@xedruo.com</a>
+            <a href={MAIL} className={btnPrimary}>ceodare@xedruo.com</a>
             <a href="https://xedruo.com" target="_blank" rel="noopener noreferrer" className={btnGhost}>xedruo.com ↗</a>
           </div>
         </Section>
